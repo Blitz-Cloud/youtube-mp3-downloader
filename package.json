@@ -1,5 +1,5 @@
 {
-  "name": "youtube-mp3-downloader",
+  "name": "@blitz_cloud/youtube-mp3-downloader",
   "version": "0.7.11",
   "description": "Downloads Youtube videos (in parallel, as streams), encodes the audio data as mp3 and stores them in a defineable location",
   "keywords": [
@@ -24,9 +24,7 @@
     "sanitize-filename": "^1.6.3",
     "ytdl-core": "4.10.0"
   },
-  "author": {
-    "name": "ytb2mp3"
-  },
+  "author": "ytb2mp3",
   "repository": {
     "type": "git",
     "url": "git://github.com/ytb2mp3/youtube-mp3-downloader.git"
@@ -38,5 +36,10 @@
   "bugs": {
     "url": "https://github.com/ytb2mp3/youtube-mp3-downloader/issues"
   },
-  "types": "./typings/index.d.ts"
+  "types": "./typings/index.d.ts",
+  "homepage": "https://github.com/ytb2mp3/youtube-mp3-downloader#readme",
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  }
 }
